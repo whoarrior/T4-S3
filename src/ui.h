@@ -34,6 +34,7 @@ extern lv_obj_t *ui_Speed_Satellites;
 extern lv_obj_t *ui_Speed_SatelliteIcon;
 extern lv_obj_t *ui_Speed_SatelliteConnections;
 extern lv_obj_t *ui_Speed_DirectionText;
+extern lv_obj_t *ui_Speed_Logging;
 // CUSTOM VARIABLES
 
 // EVENTS

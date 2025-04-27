@@ -56,4 +56,18 @@ ui_object_set_themeable_style_property(ui_Speed_DirectionText, LV_PART_MAIN| LV_
 lv_obj_set_style_text_align(ui_Speed_DirectionText, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN| LV_STATE_DEFAULT);
 lv_obj_set_style_text_font(ui_Speed_DirectionText, &ui_font_MontserratSemiBoldLarge, LV_PART_MAIN| LV_STATE_DEFAULT);
 
+ui_Speed_Logging = lv_textarea_create(ui_Speed);
+lv_obj_set_height( ui_Speed_Logging, 330);
+lv_obj_set_width( ui_Speed_Logging, lv_pct(100));
+lv_obj_set_align( ui_Speed_Logging, LV_ALIGN_BOTTOM_MID );
+lv_textarea_set_placeholder_text(ui_Speed_Logging,"Placeholder...");
+lv_obj_set_style_text_color(ui_Speed_Logging, lv_color_hex(0x00FF11), LV_PART_MAIN | LV_STATE_DEFAULT );
+lv_obj_set_style_text_opa(ui_Speed_Logging, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
+lv_obj_set_style_text_align(ui_Speed_Logging, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN| LV_STATE_DEFAULT);
+lv_obj_set_style_text_font(ui_Speed_Logging, &lv_font_montserrat_26, LV_PART_MAIN| LV_STATE_DEFAULT);
+lv_obj_set_style_bg_color(ui_Speed_Logging, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT );
+lv_obj_set_style_bg_opa(ui_Speed_Logging, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
+lv_obj_set_style_border_color(ui_Speed_Logging, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT );
+lv_obj_set_style_border_opa(ui_Speed_Logging, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
+
 }
